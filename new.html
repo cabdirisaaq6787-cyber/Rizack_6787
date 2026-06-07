@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    :root {
+      --sand: #f5ede0;
+      --parchment: #eedfc8;
+      --clay: #c8825a;
+      --terracotta: #a0522d;
+      --earth: #6b3a22;
+      --ink: #2c1a0e;
+      --gold: #c49a3c;
+      --cream: #fdf6ee;
+    }
+    
+    body {
+      background-color: #c2b280;
+      font-family: Georgia, serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      /* bigger */
+      border: 3px solid var(--parchment);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 30px rgba(44, 26, 14, 0.2);
+    }
+    
+    .card-header {
+      background-color: var(--terracotta);
+      border-bottom: 3px solid var(--gold);
+      padding: 24px;
+      text-align: center;
+    }
+    
+    .cont-header h1 {
+      font-size: 1.8rem;
+      /* slightly larger title */
+      color: var(--cream);
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    
+    .cont-body {
+      display: flex;
+      min-height: 320px;
+      /* taller body */
+    }
+    
+    .sidebar {
+      background-color: var(--earth);
+      width: 240px;
+      flex-shrink: 0;
+      padding: 36px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      border-right: 3px solid var(--gold);
+    }
+    
+    .sidebar a {
+      text-decoration: none;
+      color: var(--parchment);
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      transition: color 0.2s;
+    }
+    
+    .sidebar a:hover {
+      color: var(--gold);
+      background-color: #fdf6ee;
+      padding: 2px;
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    }
+    
+    .main {
+      background-color: var(--clay);
+      flex: 1;
+      padding: 44px 48px;
+    }
+    
+    .main h2 {
+      color: var(--cream);
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    .main p {
+      color: var(--cream);
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    
+    .card-footer {
+      background-color: var(--gold);
+      border-top: 3px solid var(--terracotta);
+      padding: 18px;
+      text-align: center;
+    }
+    
+    .card-footer p {
+      color: var(--ink);
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <div class="container">
+    
+    <div class="cont-header">
+      <h1>Welcome to CA252</h1>
+    </div>
+    
+    <div class="cont-body">
+      
+      <div class="sidebar">
+        <a href="home.html"">Home</a>
+                <a href="about.html">About</a>
+        <a href="new.html">News</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      
+      <div class="main">
+        <h2>LAST News</h2>
+        <p> Latest News
+          
+          CA252 Students Showcase Outstanding Project Work
+          
+          Students in the CA252 class recently presented a series of innovative projects that demonstrated
+          their creativity, teamwork, and technical skills. The presentations covered a variety of topics and
+          highlighted the knowledge gained throughout the course.
+          
+          Faculty members praised the students for their dedication and hard work, noting the high quality of
+          the projects and the professionalism shown during the presentations. Many students expressed that
+          the experience helped them improve their problem-solving abilities and gain confidence in applying
+          classroom concepts to real-world situations.
+          
+          The CA252 class continues to provide an engaging learning environment where students can develop
+          valuable academic and professional skills. More exciting activities and project showcases are
+          planned for the remainder of the semester.
+        </p>
+        
+      </div>
+      
+    </div>
+    
+    <div class="card-footer">
+      <p>All Copyright received by Nawaf</p>
+    </div>
+    
+  </div>
+  
+</body>
+
+</html>
